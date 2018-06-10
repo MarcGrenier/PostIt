@@ -96,7 +96,7 @@ public class PostView extends View{
 				}
 				else{
 					isScaling = true;
-					//trouve le centre de l'écran et ajoute la moitié de la lageur de l'écran selon le zoom
+					//trouve le centre de l'?cran et ajoute la moiti? de la lageur de l'?cran selon le zoom
 					float midX = realX - (size.x/2/lastScaleFactor);
 					realX = midX + (size.x/2/mScaleFactor);
 					float midY = realY - (size.y/2/lastScaleFactor);
@@ -141,7 +141,7 @@ public class PostView extends View{
 	
 	
 	/**
-	 * Classe interne écouteur pour le scale du postView
+	 * Classe interne ?couteur pour le scale du postView
 	 * @author Marc
 	 *
 	 */
